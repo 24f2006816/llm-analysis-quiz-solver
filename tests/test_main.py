@@ -5,7 +5,7 @@ client = TestClient(app)
 
 def test_invalid_secret():
     response = client.post("/solve", json={
-        "email": "test@email.com",
+        "email": "x@y.com",
         "secret": "wrong",
         "url": "https://example.com"
     })

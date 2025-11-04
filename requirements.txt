@@ -1,8 +1,8 @@
 fastapi
 uvicorn
 playwright
-requests
+python-dotenv
+aiohttp
 pandas
 numpy
-aiohttp
-python-dotenv
+requests

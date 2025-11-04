@@ -5,3 +5,6 @@ load_dotenv()
 
 EMAIL = os.getenv("EMAIL")
 SECRET = os.getenv("SECRET")
+
+if not SECRET:
+    raise ValueError("SECRET not found in environment")
